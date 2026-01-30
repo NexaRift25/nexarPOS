@@ -69,6 +69,7 @@ jobs:
           # Build & push image
           docker buildx build \
             --platform linux/amd64 \
+            --file images/custom/Containerfile \
             --build-arg FRAPPE_PATH=https://github.com/frappe/frappe.git \
             --build-arg FRAPPE_BRANCH=version-15 \
             --build-arg PYTHON_VERSION=3.11.9 \
