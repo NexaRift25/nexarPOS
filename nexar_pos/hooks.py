@@ -1,6 +1,6 @@
 app_name = "nexar_pos"
 app_title = "Nexar Pos"
-app_publisher = "nexarift25@gmail.com"
+app_publisher = "Nexarift"
 app_description = "This is a comprehensive pos application for making business operation smooth"
 app_email = "nexarift25@gmail.com"
 app_license = "mit"
