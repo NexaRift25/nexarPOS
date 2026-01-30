@@ -1,4 +1,4 @@
-name: Frappe Docker Build and Deploye Nexar POS
+name: Frappe Docker Build and Push Nexar POS
 
 on:
   workflow_dispatch:
@@ -38,6 +38,10 @@ jobs:
             {
               "url": "https://github.com/frappe/hrms.git",
               "branch": "version-15"
+            },
+            {
+              "url": "https://github.com/NexaRift25/nexarPOS.git",
+              "branch": "main"
             }
           ]'
 
